@@ -5,10 +5,8 @@ SQL database planning, design & build project
 Int college Data Analysts class of 2024 SQL Project (Alon Alboher)
 ----------------------------------------------------------
 
-In 2024 we created our first database using SQL, we started with the basics by designing 
-two ERDs (using different approaches) to determine before hand what we will be creating, 
-for example: what tables we might need? what will be their connections? etc. 
-we used various syntax and commends such as join commands cte and more.
+In 2024 we created our first database using SQL, A full presentation of the project is in the **(SQL Project Presentation v3 - Alon Alboher, Vered Beeri, Maayan Birnboim, Raanan Pomeranc.pdf)** file.
+We started with the basics by designing two ERDs (using different approaches) to determine before hand what we will be creating, for example: what tables we might need? what will be their connections? etc. we used various syntax and commends such as join commands cte and more.
 
 ![alt text](https://static.wixstatic.com/media/8e190f_fae46e7a848e44a99ded2ab4b83773cb~mv2.png/v1/fill/w_1480,h_832,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8e190f_fae46e7a848e44a99ded2ab4b83773cb~mv2.png)
 ![alt text](https://static.wixstatic.com/media/8e190f_104633394eff488aa6671ca72fa4debc~mv2.png/v1/fill/w_1480,h_830,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8e190f_104633394eff488aa6671ca72fa4debc~mv2.png)
@@ -29,7 +27,7 @@ At first we planned to create several tables as columns of other tables, but in 
 When defining our constraints we tried using the known samples of data types, but in some cases that proved harder than we thought. for instance, making an email with a .com ending might refuse to accept Emails not ending with .com.
 In the case of phone numbers we found that there are endless possibilities, so we decided to focus on the Israeli market and thus allowing only 2 formats (Landline + Cellular)
 
-Example images from our SQL code:
+Example images from our SQL code **(SQL_proj.sql)**:
 ---------------------------------
 ![alt text](https://static.wixstatic.com/media/8e190f_93c733852bb740aa8e23c30bdcc98c74~mv2.jpg/v1/fill/w_1480,h_1710,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8e190f_93c733852bb740aa8e23c30bdcc98c74~mv2.jpg)
 ![alt text](https://static.wixstatic.com/media/8e190f_1d3260d4fe2f435b92a5c0c1efbc6997~mv2.png/v1/fill/w_1480,h_1438,al_c,q_95,usm_0.66_1.00_0.01,enc_auto/8e190f_1d3260d4fe2f435b92a5c0c1efbc6997~mv2.png)
